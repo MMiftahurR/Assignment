@@ -6,7 +6,7 @@ host,port = sys.argv[1].split(':')
 path =sys.argv[2] +"/"
 try:
     while True:
-        client = HelperClient(server=(host, id(port)))
+        client = HelperClient(server=(host, int(port)))
         resp = client.get(path)
         print(sys.argv[2]+" "+resp.payload)
         client.stop()
