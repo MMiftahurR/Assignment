@@ -1,5 +1,5 @@
 Referensi:
-Untuk contoh coap.server didapatkan dari https://github.com/Tanganelli/CoAPthon
+Untuk contoh coap.server.py dan coap.client.py didapatkan dari https://github.com/Tanganelli/CoAPthon
 
 Case:
 Translasi perintah nyala/mati perangkat dari client http ke perangkat (sama seperti MQTT-Quiz). Perangkat merequest perintah dari coap server yang sudah dimodifikasi untuk mengakomodasi perangkat dan client http.
