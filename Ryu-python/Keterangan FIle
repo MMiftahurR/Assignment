@@ -1,0 +1,7 @@
+hub2.py hub6.py - Openflow1.3
+loadbalancer.py loadbalancerRR.py - load balancer dgn setting otomatis sudo mn
+lb_RR.py - loadbalancer dgn setting manual miniedit
+hub5.py - dynamic mac forwarding (SAT) dgn Openflow1.0
+hub.py - forwarding dengan aksi FLOOD
+hub3.py - forwarding dengan input port + FLOW MOD
+hub4.py - forwarding 2 switch dengan input port + FLOW MOD
